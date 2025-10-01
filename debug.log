@@ -1,0 +1,75 @@
+DEBUG: SL Login attempt to https://b1su0210.cloudtaktiks.com:50000/b1s/v1/Login with CompanyDB: TESTI_MULT_310825DEBUG: SL Login response HTTP: 200, Response: {
+   "odata.metadata" : "https://b1su0210.cloudtaktiks.com:50000/b1s/v1/$metadata#B1Sessions/@Element",
+   "SessionId" : "4ee96780-9792-11f0-c000-0022488364ea-140264627566208-2858",
+   "Version" : "1000230",
+   "SessionTimeout" : 60
+}
+DEBUG: SL Login success, SessionId: 4ee96780-9792-11f0-c000-0022488364ea-140264627566208-2858DEBUG: Creating BP at https://b1su0210.cloudtaktiks.com:50000/b1s/v1/BusinessPartners?$format=json, Payload: {"CardType":"C","CardName":"Dwight Shrute","Series":68,"Phone1":"071661552","EmailAddress":"dwight_shrute@gmail.com"}DEBUG: BP Create response HTTP: 400, Response: {
+   "error" : {
+      "code" : -1116,
+      "message" : {
+         "lang" : "en-us",
+         "value" : "(1) Please Input PIN Number"
+      }
+   }
+}
+DEBUG: BP Create failedDEBUG: SL Login attempt to https://b1su0210.cloudtaktiks.com:50000/b1s/v1/Login with CompanyDB: TESTI_MULT_310825DEBUG: SL Login response HTTP: 200, Response: {
+   "odata.metadata" : "https://b1su0210.cloudtaktiks.com:50000/b1s/v1/$metadata#B1Sessions/@Element",
+   "SessionId" : "609e09e0-9792-11f0-c000-0022488364ea-140264627566208-2858",
+   "Version" : "1000230",
+   "SessionTimeout" : 60
+}
+DEBUG: SL Login success, SessionId: 609e09e0-9792-11f0-c000-0022488364ea-140264627566208-2858DEBUG: Creating BP at https://b1su0210.cloudtaktiks.com:50000/b1s/v1/BusinessPartners?$format=json, Payload: {"CardType":"C","CardName":"Dwight Shrute","Series":68,"Phone1":"071661552","EmailAddress":"dwight_shrute@gmail.com","U_PIN":"P00878676"}DEBUG: BP Create response HTTP: 400, Response: {
+   "error" : {
+      "code" : -1000,
+      "message" : {
+         "lang" : "en-us",
+         "value" : "Property 'U_PIN' of 'BusinessPartner' is invalid"
+      }
+   }
+}
+DEBUG: BP Create failedDEBUG: SL Login attempt to https://b1su0210.cloudtaktiks.com:50000/b1s/v1/Login with CompanyDB: TESTI_MULT_310825DEBUG: SL Login response HTTP: 200, Response: {
+   "odata.metadata" : "https://b1su0210.cloudtaktiks.com:50000/b1s/v1/$metadata#B1Sessions/@Element",
+   "SessionId" : "7f484f90-9792-11f0-c000-0022488364ea-140264627566208-2858",
+   "Version" : "1000230",
+   "SessionTimeout" : 60
+}
+DEBUG: SL Login success, SessionId: 7f484f90-9792-11f0-c000-0022488364ea-140264627566208-2858DEBUG: Creating BP at https://b1su0210.cloudtaktiks.com:50000/b1s/v1/BusinessPartners?$format=json, Payload: {"CardType":"C","CardName":"Dwight Shrute","Series":68,"Phone1":"071661552","EmailAddress":"dwight_shrute@gmail.com","FederalTaxID":"P00122222L"}DEBUG: BP Create response HTTP: 201, Response: {
+	"odata.metadata" : "https://b1su0210.cloudtaktiks.com:50000/b1s/v1/$metadata#BusinessPartners/@Element",
+	"odata.etag" : "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+	"CardCode" : "C00996",
+	"CardName" : "Dwight Shrute",
+	"CardType" : "cCustomer",
+	"GroupCode" : 100,
+	"Address" : null,
+	"ZipCode" : null,
+	"MailAddress" : null,
+	"MailZipCode" : null,
+	"Phone1" : "071661552",
+	"Phone2" : null,
+	"Fax" : null,
+	"ContactPerson" : null,
+	"Notes" : null,
+	"PayTermsGrpCode" : 3,
+	"CreditLimit" : 0.0,
+	"MaxCommitment" : 0.0,
+	"DiscountPercent" : 0.0,
+	"VatLiable" : "vLiable",
+	"FederalTaxID" : "P00122222L",
+	"DeductibleAtSource" : "tNO",
+	"DeductionPercent" : 0.0,
+	"DeductionValidUntil" : null,
+	"PriceListNum" : 11,
+	"IntrestRatePercent" : 0.0,
+	"CommissionPercent" : 0.0,
+	"CommissionGroupCode" : 0,
+	"FreeText" : null,
+	"SalesPersonCode" : -1,
+	"Currency" : "KES",
+	"RateDiffAccount" : null,
+	"Cellular" : null,
+	"AvarageLate" : null,
+	"City" : null,
+	"County" : null,
+	"Country" : "KE",
+	DEBUG: BP Create success
